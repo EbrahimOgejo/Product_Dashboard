@@ -1,16 +1,63 @@
-# React + Vite
+# 🛍️ Dynamic Product Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based product dashboard built with **Vite**, **Material UI**, and **CSS Modules**.  
+This project demonstrates dynamic rendering, filtering functionality, conditional rendering, and component-based architecture in React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+The Dynamic Product Dashboard is designed to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Display a list of products dynamically
+- Show product images on each card
+- Filter products by availability
+- Apply conditional rendering for stock status
+- Pass pre-written Jest tests
 
-## Expanding the ESLint configuration
+This project was developed as part of a React lab assignment.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Technologies Used
+
+- React (with Vite)
+- JavaScript (ES6+)
+- Material UI (MUI)
+- CSS Modules
+- Jest
+- React Testing Library
+- Node.js
+- Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── ProductCard.jsx
+│ ├── ProductCard.module.css
+│ ├── ProductDashboard.jsx
+│ └── ProductDashboard.module.css
+├── data/
+│ └── products.js
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+---
+
+## ✨ Features
+
+- ✅ Dynamic product rendering using `.map()`
+- ✅ Image display for each product
+- ✅ Availability filter toggle
+- ✅ Conditional UI rendering (In Stock / Out of Stock)
+- ✅ Styled with CSS Modules
+- ✅ Material UI components integration
+- ✅ Automated testing compatibility
+
+---
+
