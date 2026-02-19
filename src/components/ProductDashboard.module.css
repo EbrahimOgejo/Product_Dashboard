@@ -1,0 +1,15 @@
+.container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.grid {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
