@@ -22,7 +22,7 @@ This project was developed as part of a React lab assignment.
 ## 🧰 Technologies Used
 
 - React (with Vite)
-- JavaScript (ES6+)
+- JavaScript
 - Material UI (MUI)
 - CSS Modules
 - Jest
